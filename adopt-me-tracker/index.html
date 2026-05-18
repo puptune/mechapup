@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Adopt Me Value Tracker</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0a0e0d;
+    --bg-card: #131817;
+    --bg-elevated: #1a201e;
+    --border: #232927;
+    --text: #e8eae9;
+    --text-dim: #7d8784;
+    --text-muted: #4a5450;
+    --accent: #5cf0a8;
+    --accent-dim: #2d8055;
+    --warning: #f0c95c;
+    --danger: #f06d5c;
+    --gold: #d4af37;
+    --mono: 'JetBrains Mono', 'Courier New', monospace;
+    --display: 'Fraunces', Georgia, serif;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--mono);
+    font-size: 14px;
+    line-height: 1.5;
+    min-height: 100vh;
+    background-image:
+      radial-gradient(circle at 20% 0%, rgba(92, 240, 168, 0.04), transparent 50%),
+      radial-gradient(circle at 80% 60%, rgba(212, 175, 55, 0.03), transparent 50%);
+  }
+
+  /* Layout */
+  .container { max-width: 1600px; margin: 0 auto; padding: 32px 24px 80px; }
+
+  /* Header */
+  header { margin-bottom: 48px; border-bottom: 1px solid var(--border); padding-bottom: 32px; }
+  .title-row { display: flex; justify-content: space-between; align-items: flex-end; gap: 32px; flex-wrap: wrap; }
+  h1 {
+    font-family: var(--display);
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 1;
+    letter-spacing: -0.03em;
+    background: linear-gradient(180deg, var(--text) 0%, var(--text-dim) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  h1 .em { font-style: italic; color: var(--accent); -webkit-text-fill-color: var(--accent); }
+  .subtitle { color: var(--text-dim); font-size: 13px; margin-top: 8px; letter-spacing: 0.05em; }
+  .meta-stack { text-align: right; font-size: 11px; color: var(--text-dim); letter-spacing: 0.1em; text-transform: uppercase; }
+  .meta-stack .stamp { color: var(--accent); margin-top: 4px; font-weight: 500; }
+  .meta-stack .count { font-family: var(--display); font-size: 28px; color: var(--text); font-weight: 600; letter-spacing: -0.02em; margin-top: 8px; }
+
+  /* Highlights */
+  .highlights {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 16px;
+    margin-bottom: 48px;
+  }
+  .card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    padding: 20px;
+    position: relative;
+    transition: border-color 0.2s, transform 0.2s;
+  }
+  .card:hover { border-color: var(--accent-dim); transform: translateY(-2px); }
+  .card .card-title {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--text-dim);
+    margin-bottom: 4px;
+  }
+  .card .card-subtitle {
+    font-size: 11px;
+    color: var(--text-muted);
+    margin-bottom: 16px;
+  }
+  .card .deal-row { display: flex; justify-content: space-between; align-items: baseline; padding: 8px 0; border-bottom: 1px dashed var(--border); }
+  .card .deal-row:last-child { border-bottom: none; }
+  .card .pet-name { font-weight: 500; }
+  .card .pet-name .var-tag { font-size: 10px; color: var(--text-dim); margin-left: 6px; padding: 1px 6px; background: var(--bg-elevated); border-radius: 2px; }
+  .card .ratio { color: var(--accent); font-weight: 700; font-family: var(--display); font-size: 16px; }
+  .card .price { color: var(--text-dim); font-size: 12px; }
+
+  /* Tabs */
+  .tabs { display: flex; gap: 0; margin-bottom: 24px; border-bottom: 1px solid var(--border); }
+  .tab {
+    background: transparent;
+    border: none;
+    color: var(--text-dim);
+    font-family: var(--mono);
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -1px;
+    transition: color 0.2s, border-color 0.2s;
+  }
+  .tab:hover { color: var(--text); }
+  .tab.active { color: var(--accent); border-bottom-color: var(--accent); }
+
+  /* Filters */
+  .filter-bar {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+    align-items: center;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    padding: 14px 16px;
+  }
+  .filter-bar label { font-size: 10px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-dim); display: block; margin-bottom: 4px; }
+  .filter-bar .field { display: flex; flex-direction: column; }
+  .filter-bar input, .filter-bar select {
+    background: var(--bg-elevated);
+    border: 1px solid var(--border);
+    color: var(--text);
+    font-family: var(--mono);
+    font-size: 12px;
+    padding: 8px 10px;
+    border-radius: 0;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+  .filter-bar input:focus, .filter-bar select:focus { border-color: var(--accent); }
+  .filter-bar input[type="text"] { min-width: 200px; }
+  .filter-bar input[type="number"] { width: 90px; }
+  .filter-bar select { min-width: 110px; }
+  .results-count { margin-left: auto; font-size: 11px; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.1em; }
+  .results-count strong { color: var(--text); font-family: var(--display); font-size: 15px; font-weight: 600; }
+
+  /* Table */
+  .table-wrap { background: var(--bg-card); border: 1px solid var(--border); overflow: auto; max-height: 70vh; }
+  table { width: 100%; border-collapse: collapse; font-size: 12px; }
+  thead { position: sticky; top: 0; background: var(--bg-card); z-index: 2; }
+  th {
+    text-align: left;
+    padding: 12px 16px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--text-dim);
+    border-bottom: 1px solid var(--border);
+    cursor: pointer;
+    user-select: none;
+    white-space: nowrap;
+  }
+  th:hover { color: var(--text); }
+  th.sorted-asc::after, th.sorted-desc::after {
+    margin-left: 6px;
+    color: var(--accent);
+    font-size: 10px;
+  }
+  th.sorted-asc::after { content: "▲"; }
+  th.sorted-desc::after { content: "▼"; }
+  td {
+    padding: 10px 16px;
+    border-bottom: 1px solid var(--border);
+    white-space: nowrap;
+  }
+  tbody tr { transition: background 0.1s; }
+  tbody tr:hover { background: var(--bg-elevated); }
+  td.num { text-align: right; font-variant-numeric: tabular-nums; }
+  td.ratio { color: var(--accent); font-weight: 600; }
+  td.ratio.weak { color: var(--text-dim); font-weight: 400; }
+  td.ratio.strong { color: var(--accent); font-weight: 700; }
+  .var-pill {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 2px;
+    font-size: 10px;
+    letter-spacing: 0.05em;
+    background: var(--bg-elevated);
+    color: var(--text-dim);
+    border: 1px solid var(--border);
+  }
+  .var-pill.normal { color: var(--text-dim); }
+  .var-pill.fr { color: #8db4e2; border-color: #2c4258; }
+  .var-pill.neon { color: #c98df0; border-color: #4a2c58; }
+  .var-pill.mega { color: var(--gold); border-color: #4a3d1c; }
+
+  /* Loading */
+  #loader { text-align: center; padding: 80px 20px; color: var(--text-dim); }
+  .pulse {
+    display: inline-block;
+    width: 8px; height: 8px;
+    background: var(--accent);
+    border-radius: 50%;
+    margin-right: 8px;
+    animation: pulse 1.4s ease-in-out infinite;
+  }
+  @keyframes pulse {
+    0%, 100% { opacity: 0.3; transform: scale(0.8); }
+    50% { opacity: 1; transform: scale(1.1); }
+  }
+
+  .error {
+    background: rgba(240, 109, 92, 0.08);
+    border: 1px solid var(--danger);
+    color: var(--danger);
+    padding: 16px 20px;
+    margin: 20px 0;
+    font-size: 13px;
+  }
+
+  /* Footer */
+  footer {
+    margin-top: 64px;
+    padding-top: 24px;
+    border-top: 1px solid var(--border);
+    color: var(--text-muted);
+    font-size: 11px;
+    letter-spacing: 0.05em;
+  }
+  footer a { color: var(--text-dim); }
+
+  @media (max-width: 700px) {
+    h1 { font-size: 36px; }
+    .container { padding: 20px 14px 60px; }
+    .filter-bar { flex-direction: column; align-items: stretch; }
+    .results-count { margin-left: 0; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <header>
+    <div class="title-row">
+      <div>
+        <h1>Adopt Me <span class="em">value</span> tracker</h1>
+        <p class="subtitle">Cross-referenced starpets.gg prices against community trade values · updates daily</p>
+      </div>
+      <div class="meta-stack">
+        <div>Last sync</div>
+        <div class="stamp" id="updated">—</div>
+        <div class="count" id="deal-count">—</div>
+        <div>tracked deals</div>
+      </div>
+    </div>
+  </header>
+
+  <div id="loader"><span class="pulse"></span>loading data…</div>
+
+  <div id="content" style="display:none">
+
+    <!-- HIGHLIGHTS -->
+    <section class="highlights" id="highlights"></section>
+
+    <!-- TABS -->
+    <div class="tabs">
+      <button class="tab active" data-tab="deals">All deals</button>
+      <button class="tab" data-tab="arbitrage">Neon → Mega arbitrage</button>
+    </div>
+
+    <!-- DEALS TABLE -->
+    <div id="tab-deals">
+      <div class="filter-bar">
+        <div class="field">
+          <label>Search pet</label>
+          <input type="text" id="search" placeholder="e.g. Lunar Ox">
+        </div>
+        <div class="field">
+          <label>Variant</label>
+          <select id="variant">
+            <option value="">All</option>
+            <option value="Normal">Normal</option>
+            <optgroup label="No Pumping (FR family)">
+              <option value="F">F (fly)</option>
+              <option value="R">R (ride)</option>
+              <option value="FR">FR</option>
+            </optgroup>
+            <optgroup label="Neon (NFR family)">
+              <option value="N">N</option>
+              <option value="NF">NF</option>
+              <option value="NR">NR</option>
+              <option value="NFR">NFR</option>
+            </optgroup>
+            <optgroup label="Mega (MFR family)">
+              <option value="M">M</option>
+              <option value="MF">MF</option>
+              <option value="MR">MR</option>
+              <option value="MFR">MFR</option>
+            </optgroup>
+          </select>
+        </div>
+        <div class="field"><label>Max price $</label><input type="number" id="max-price" step="0.01" placeholder="any"></div>
+        <div class="field"><label>Min value</label><input type="number" id="min-value" step="0.1" placeholder="any"></div>
+        <div class="field"><label>Min ratio</label><input type="number" id="min-ratio" step="0.5" placeholder="any"></div>
+        <div class="results-count"><strong id="filtered-count">0</strong> matches</div>
+      </div>
+      <div class="table-wrap">
+        <table id="deals-table">
+          <thead>
+            <tr>
+              <th data-sort="name">Pet</th>
+              <th data-sort="variant">Variant</th>
+              <th data-sort="lowest_price" class="num">Price</th>
+              <th data-sort="value" class="num">Value</th>
+              <th data-sort="value_per_dollar" class="num sorted-desc">Val / $</th>
+              <th data-sort="listing_count" class="num">Listings</th>
+            </tr>
+          </thead>
+          <tbody id="deals-body"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- ARBITRAGE TABLE -->
+    <div id="tab-arbitrage" style="display:none">
+      <div class="filter-bar">
+        <div class="field"><label>Search pet</label><input type="text" id="arb-search" placeholder="e.g. Lunar Ox"></div>
+        <div class="field">
+          <label>Pair</label>
+          <select id="arb-pair">
+            <option value="">All</option>
+            <option value="N→M">N → M</option>
+            <option value="NF→MF">NF → MF</option>
+            <option value="NR→MR">NR → MR</option>
+            <option value="NFR→MFR">NFR → MFR</option>
+          </select>
+        </div>
+        <div class="field"><label>Max 4×N cost</label><input type="number" id="arb-max-cost" step="0.01" placeholder="any"></div>
+        <div class="field"><label>Min combine ratio</label><input type="number" id="arb-min-ratio" step="0.5" value="2.5"></div>
+        <div class="field"><label>Profitable only</label>
+          <select id="arb-profitable"><option value="yes">Yes</option><option value="">All</option></select>
+        </div>
+        <div class="results-count"><strong id="arb-count">0</strong> matches</div>
+      </div>
+      <div class="table-wrap">
+        <table id="arb-table">
+          <thead>
+            <tr>
+              <th data-sort="name">Pet</th>
+              <th data-sort="pair">Pair</th>
+              <th data-sort="cost_4n" class="num">4×N cost</th>
+              <th data-sort="m_price" class="num">M price</th>
+              <th data-sort="savings" class="num">Savings $</th>
+              <th data-sort="m_value" class="num">M value</th>
+              <th data-sort="combine_ratio" class="num sorted-desc">Combine ratio</th>
+              <th data-sort="direct_ratio" class="num">Direct ratio</th>
+            </tr>
+          </thead>
+          <tbody id="arb-body"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    Data scraped from starpets.gg listings · values from community trade-value list · this site is not affiliated with Adopt Me or starpets.gg. Pet values are community estimates and can be wrong.
+  </footer>
+</div>
+
+<script>
+// ───────────────────────────────────────────────────────────────
+// State
+// ───────────────────────────────────────────────────────────────
+let DATA = null;
+let dealsSort = { key: "value_per_dollar", dir: "desc" };
+let arbSort = { key: "combine_ratio", dir: "desc" };
+
+const $ = id => document.getElementById(id);
+const fmtMoney = n => "$" + n.toFixed(2);
+const fmtVal = n => n.toFixed(2);
+
+// Variant categorization for pill styling
+function varClass(v) {
+  if (v === "Normal") return "normal";
+  if (v.startsWith("M")) return "mega";
+  if (v.startsWith("N")) return "neon";
+  return "fr";
+}
+
+// ───────────────────────────────────────────────────────────────
+// Load
+// ───────────────────────────────────────────────────────────────
+async function load() {
+  try {
+    const res = await fetch("./data.json?t=" + Date.now());
+    if (!res.ok) throw new Error("HTTP " + res.status);
+    DATA = await res.json();
+    $("loader").style.display = "none";
+    $("content").style.display = "block";
+
+    // Header stats
+    const d = new Date(DATA.updated_at);
+    $("updated").textContent = d.toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" });
+    $("deal-count").textContent = DATA.deals.length.toLocaleString();
+
+    renderHighlights();
+    renderDeals();
+    renderArb();
+  } catch (e) {
+    $("loader").innerHTML = `<div class="error">Failed to load data.json — ${e.message}<br><br>Did the daily scrape run? Check the Actions tab in GitHub.</div>`;
+  }
+}
+
+// ───────────────────────────────────────────────────────────────
+// Highlights
+// ───────────────────────────────────────────────────────────────
+function renderHighlights() {
+  const deals = DATA.deals;
+
+  // Card 1: Top 5 best value-per-dollar overall (filter to value > 1 to avoid noise)
+  const topRatio = deals
+    .filter(d => d.value >= 1 && d.listing_count >= 1)
+    .slice(0, 5);
+
+  // Card 2: Top 5 Mega pets by value-per-dollar
+  const topMega = deals
+    .filter(d => d.variant.startsWith("M") && d.value >= 2)
+    .sort((a, b) => b.value_per_dollar - a.value_per_dollar)
+    .slice(0, 5);
+
+  // Card 3: Top 5 high-value steals (value > 5, sorted by ratio)
+  const bigPets = deals
+    .filter(d => d.value >= 5)
+    .sort((a, b) => b.value_per_dollar - a.value_per_dollar)
+    .slice(0, 5);
+
+  const cardEl = (title, sub, items) => `
+    <div class="card">
+      <div class="card-title">${title}</div>
+      <div class="card-subtitle">${sub}</div>
+      ${items.map(d => `
+        <div class="deal-row">
+          <div class="pet-name">${d.name}<span class="var-tag">${d.variant}</span></div>
+          <div>
+            <span class="price">${fmtMoney(d.lowest_price)}</span>
+            <span class="ratio">${d.value_per_dollar}×</span>
+          </div>
+        </div>
+      `).join("")}
+    </div>`;
+
+  $("highlights").innerHTML =
+    cardEl("Top ratio", "Best value-per-dollar (value ≥ 1)", topRatio) +
+    cardEl("Mega bargains", "Cheapest Mega Neons by ratio", topMega) +
+    cardEl("Heavy hitters", "High-value pets (value ≥ 5) sorted by ratio", bigPets);
+}
+
+// ───────────────────────────────────────────────────────────────
+// Deals table
+// ───────────────────────────────────────────────────────────────
+function renderDeals() {
+  const search = $("search").value.toLowerCase().trim();
+  const variant = $("variant").value;
+  const maxPrice = parseFloat($("max-price").value);
+  const minValue = parseFloat($("min-value").value);
+  const minRatio = parseFloat($("min-ratio").value);
+
+  let rows = DATA.deals.filter(d => {
+    if (search && !d.name.toLowerCase().includes(search)) return false;
+    if (variant && d.variant !== variant) return false;
+    if (!isNaN(maxPrice) && d.lowest_price > maxPrice) return false;
+    if (!isNaN(minValue) && d.value < minValue) return false;
+    if (!isNaN(minRatio) && d.value_per_dollar < minRatio) return false;
+    return true;
+  });
+
+  rows.sort((a, b) => {
+    const k = dealsSort.key;
+    const dir = dealsSort.dir === "asc" ? 1 : -1;
+    const av = a[k], bv = b[k];
+    if (typeof av === "string") return av.localeCompare(bv) * dir;
+    return (av - bv) * dir;
+  });
+
+  $("filtered-count").textContent = rows.length.toLocaleString();
+
+  // Cap render at 1000 for browser perf
+  const limit = 1000;
+  const truncated = rows.length > limit;
+  rows = rows.slice(0, limit);
+
+  $("deals-body").innerHTML = rows.map(d => {
+    const r = d.value_per_dollar;
+    const ratioCls = r >= 10 ? "strong" : r >= 3 ? "" : "weak";
+    return `
+      <tr>
+        <td>${d.name}</td>
+        <td><span class="var-pill ${varClass(d.variant)}">${d.variant}</span></td>
+        <td class="num">${fmtMoney(d.lowest_price)}</td>
+        <td class="num">${fmtVal(d.value)}</td>
+        <td class="num ratio ${ratioCls}">${r.toFixed(1)}×</td>
+        <td class="num">${d.listing_count}</td>
+      </tr>`;
+  }).join("") + (truncated ? `<tr><td colspan="6" style="text-align:center; padding:16px; color:var(--text-dim)">Showing first ${limit.toLocaleString()} of ${(rows.length + (truncated ? "more" : "")).toLocaleString()} — narrow your filters to see the rest</td></tr>` : "");
+}
+
+// ───────────────────────────────────────────────────────────────
+// Arbitrage table
+// ───────────────────────────────────────────────────────────────
+function renderArb() {
+  const search = $("arb-search").value.toLowerCase().trim();
+  const pair = $("arb-pair").value;
+  const maxCost = parseFloat($("arb-max-cost").value);
+  const minRatio = parseFloat($("arb-min-ratio").value);
+  const profOnly = $("arb-profitable").value === "yes";
+
+  let rows = DATA.arbitrage.filter(a => {
+    if (search && !a.name.toLowerCase().includes(search)) return false;
+    if (pair && a.pair !== pair) return false;
+    if (!isNaN(maxCost) && a.cost_4n > maxCost) return false;
+    if (!isNaN(minRatio) && a.combine_ratio < minRatio) return false;
+    if (profOnly && a.savings <= 0) return false;
+    return true;
+  });
+
+  rows.sort((a, b) => {
+    const k = arbSort.key;
+    const dir = arbSort.dir === "asc" ? 1 : -1;
+    const av = a[k], bv = b[k];
+    if (typeof av === "string") return av.localeCompare(bv) * dir;
+    return (av - bv) * dir;
+  });
+
+  $("arb-count").textContent = rows.length.toLocaleString();
+
+  const limit = 1000;
+  const truncated = rows.length > limit;
+  rows = rows.slice(0, limit);
+
+  $("arb-body").innerHTML = rows.map(a => {
+    const cr = a.combine_ratio;
+    const crCls = cr >= 5 ? "strong" : cr >= 2.5 ? "" : "weak";
+    const saveColor = a.savings > 0 ? "color:var(--accent)" : "color:var(--text-dim)";
+    return `
+      <tr>
+        <td>${a.name}</td>
+        <td><span class="var-pill ${a.pair.startsWith("N") ? "neon" : "mega"}">${a.pair}</span></td>
+        <td class="num">${fmtMoney(a.cost_4n)}</td>
+        <td class="num">${fmtMoney(a.m_price)}</td>
+        <td class="num" style="${saveColor}">${a.savings >= 0 ? "+" : ""}${fmtMoney(a.savings)}</td>
+        <td class="num">${fmtVal(a.m_value)}</td>
+        <td class="num ratio ${crCls}">${cr.toFixed(1)}×</td>
+        <td class="num">${a.direct_ratio.toFixed(1)}×</td>
+      </tr>`;
+  }).join("") + (truncated ? `<tr><td colspan="8" style="text-align:center; padding:16px; color:var(--text-dim)">Showing first ${limit.toLocaleString()} — narrow your filters to see the rest</td></tr>` : "");
+}
+
+// ───────────────────────────────────────────────────────────────
+// Wire up events
+// ───────────────────────────────────────────────────────────────
+document.querySelectorAll(".tab").forEach(btn => {
+  btn.addEventListener("click", () => {
+    document.querySelectorAll(".tab").forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
+    const tab = btn.dataset.tab;
+    $("tab-deals").style.display = tab === "deals" ? "block" : "none";
+    $("tab-arbitrage").style.display = tab === "arbitrage" ? "block" : "none";
+  });
+});
+
+["search", "variant", "max-price", "min-value", "min-ratio"].forEach(id => {
+  $(id).addEventListener("input", renderDeals);
+  $(id).addEventListener("change", renderDeals);
+});
+["arb-search", "arb-pair", "arb-max-cost", "arb-min-ratio", "arb-profitable"].forEach(id => {
+  $(id).addEventListener("input", renderArb);
+  $(id).addEventListener("change", renderArb);
+});
+
+// Sortable headers
+document.querySelectorAll("#deals-table th[data-sort]").forEach(th => {
+  th.addEventListener("click", () => {
+    const key = th.dataset.sort;
+    if (dealsSort.key === key) dealsSort.dir = dealsSort.dir === "asc" ? "desc" : "asc";
+    else { dealsSort.key = key; dealsSort.dir = "desc"; }
+    document.querySelectorAll("#deals-table th").forEach(t => t.classList.remove("sorted-asc", "sorted-desc"));
+    th.classList.add(dealsSort.dir === "asc" ? "sorted-asc" : "sorted-desc");
+    renderDeals();
+  });
+});
+document.querySelectorAll("#arb-table th[data-sort]").forEach(th => {
+  th.addEventListener("click", () => {
+    const key = th.dataset.sort;
+    if (arbSort.key === key) arbSort.dir = arbSort.dir === "asc" ? "desc" : "asc";
+    else { arbSort.key = key; arbSort.dir = "desc"; }
+    document.querySelectorAll("#arb-table th").forEach(t => t.classList.remove("sorted-asc", "sorted-desc"));
+    th.classList.add(arbSort.dir === "asc" ? "sorted-asc" : "sorted-desc");
+    renderArb();
+  });
+});
+
+load();
+</script>
+</body>
+</html>

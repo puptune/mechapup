@@ -1,0 +1,724 @@
+Bat Dragon Bat Dragon	606.8	595.8	1387.9	3779.2
+Shadow Dragon Shadow Dragon	457.5	371.7	806.6	1901.9
+Giraffe Giraffe	269.9	259.7	586.1	1838.6
+Frost Dragon Frost Dragon	213.9	203.3	393.8	960.2
+Owl Owl	170	168	432.1	1421.7
+Parrot Parrot	134.2	132.8	277.4	829.9
+Crow Crow	117.6	116.6	269.5	984.8
+Balloon Unicorn Balloon Unicorn	104.9	106.5	335.4	1113.5
+African Wild Dog African Wild Dog	97	98.6	322.2	1042.2
+Giant Panda Giant Panda	90.3	91.9	286.9	1100
+Haetae Haetae	88.1	89.8	224.4	714.8
+Cryptid Cryptid	83	84.7	184.8	595.8
+Evil Unicorn Evil Unicorn	80.7	80.7	156.9	555.4
+Blazing Lion Blazing Lion	62.9	64.5	220.4	755.9
+Hedgehog Hedgehog	46.1	47.4	150.3	580.8
+Orchid Butterfly Orchid Butterfly	45.9	47.4	187.9	732.1
+Diamond Butterfly Diamond Butterfly	40.3	41.5	132.9	483.7
+Dalmatian Dalmatian	38.6	40	111.6	407.5
+Arctic Reindeer Arctic Reindeer	34.5	35.2	75.9	250.8
+Mini Pig Mini Pig	30.1	31.2	94.3	359.1
+Jekyll Hydra Jekyll Hydra	29.1	29.9	84.1	270.3
+Hot Doggo Hot Doggo	26.7	27.6	102.1	394.3
+Mermicorn Mermicorn	25.8	26.6	79.2	265.4
+Cow Cow	24.5	26.5	56.9	174.2
+Pelican Pelican	25.2	26.2	104.9	420.8
+Strawberry Shortcake Bat Dragon Strawberry Shortcake Bat Dragon	21.6	23	58.4	198.9
+Chocolate Chip Bat Dragon Chocolate Chip Bat Dragon	19.4	20.7	56.1	193.4
+Cabbit Cabbit	19.1	20.7	44.6	156.7
+Turtle Turtle	18.2	20.2	42	105.2
+Peppermint Penguin Peppermint Penguin	17.2	18.3	62.5	235
+Goose Goose	16	17.5	54.9	218.3
+Monkey King Monkey King	17	17.2	55.7	216.5
+Undead Jousting Horse Undead Jousting Horse	15.5	16.3	59.2	235
+Flamingo Flamingo	18.8	15.8	61.6	245.6
+Kangaroo Kangaroo	13.7	15	31.6	84.5
+Elephant Elephant	12.8	13.8	42.7	155.8
+Albino Monkey Albino Monkey	12.5	13.8	41.5	152.3
+Caterpillar Caterpillar	12.5	13.6	54	221
+Candyfloss Chick Candyfloss Chick	12.4	13.5	51	206.8
+Tortoiseshell Guinea Pig Tortoiseshell Guinea Pig	11.8	12.7	51.7	221.1
+Siamese Cat Siamese Cat	10.7	11.7	35	119.3
+Crocodile Crocodile	10.5	11.7	36.6	138.2
+Lion Lion	10.2	11.4	36.2	136.4
+Sugar Glider Sugar Glider	10.1	11	44	177.8
+Alpaca Alpaca	10.1	11	44.4	181.4
+Grim Dragon Grim Dragon	9.78	10.8	34.5	125.9
+Shark Puppy Shark Puppy	9.72	10.7	43	176.1
+Blue Dog Blue Dog	9.75	10.6	35.8	131.1
+Fairy Bat Dragon Fairy Bat Dragon	9.03	10.3	31	112.7
+Sea Slug Sea Slug	9.21	10.1	40.3	167.2
+Bush Elephant Bush Elephant	9	9.86	39.4	161.5
+Moonbeam Peacock Moonbeam Peacock	8.56	9.43	39.3	165.5
+Border Collie Border Collie	8.06	8.89	36.4	150.9
+Winged Tiger Winged Tiger	7.52	8.78	35.1	145.2
+Frost Unicorn Frost Unicorn	7.59	8.39	33.9	139.9
+Velocirooster Velocirooster	7.19	7.91	32.4	132.7
+Sushi Penguin Sushi Penguin	7.12	7.87	32.2	135.4
+Frostbite Bear Frostbite Bear	6.3	7.31	29.6	122.4
+Lion Cub Lion Cub	6.23	7.27	29.1	121.1
+Black-Chested Pheasant Black-Chested Pheasant	6.15	7.23	28.9	120.3
+Werewolf Werewolf	6.55	7.2	28.8	117.3
+Jellyfish Jellyfish	6.12	7.16	28.3	116.6
+Strawberry Penguin Strawberry Penguin	6.08	7.09	28.5	118.4
+Irish Water Spaniel Irish Water Spaniel	5.72	6.69	26.8	111.8
+Pig Pig	5.4	6.69	17.8	69.1
+Field Mouse Field Mouse	5.58	6.51	26.6	110.5
+Many Mackerel Many Mackerel	5.58	6.51	26.1	107.5
+Vampire Dragon Vampire Dragon	5.54	6.23	24.6	100.4
+Goat Goat	5.33	6.23	25.3	104.7
+Arctic Fox Arctic Fox	4.89	6.12	18.6	68.4
+Emperor Gorilla Emperor Gorilla	5.15	6.08	24.3	100.4
+Owlbear Owlbear	5	5.9	24	98.3
+Tortuga de la Isla Tortuga de la Isla	4.97	5.83	23.7	98.8
+Papa Moose Papa Moose	4.97	5.83	23.7	98.6
+Pink Cat Pink Cat	4.89	5.79	19.3	73.4
+Cupid Dragon Cupid Dragon	4.75	5.66	22.1	90.1
+Sheeeeep Sheeeeep	4.61	5.43	22.1	92
+Candicorn Candicorn	4.39	5.37	20.2	83.2
+Pineapple Owl Pineapple Owl	4.43	5.27	21.1	88.6
+Pirate Ghost Capuchin Monkey Pirate Ghost Capuchin Monkey	4.39	5.2	20.9	86.7
+Frost Fury Frost Fury	4.36	5.19	13.1	46.5
+Red Dutch Guinea Pig Red Dutch Guinea Pig	4.14	5.09	20.4	85
+Meerkat Meerkat	4.14	4.93	19.3	79.7
+Shrew Shrew	3.75	4.83	18	72
+Nessie Nessie	3.89	4.8	19.6	82.2
+Tio De Nadal Tio De Nadal	4	4.73	19.4	81.4
+Bald Eagle Bald Eagle	3.92	4.71	19.2	79.3
+Silverback Gorilla Silverback Gorilla	3.71	4.58	18.3	74.8
+Ring-tailed Lemur Ring-tailed Lemur	3.71	4.47	18.5	77.5
+Fallow Deer Fallow Deer	3.6	4.4	17.7	74
+Royal Mistletroll Royal Mistletroll	3.6	4.4	18.1	75.8
+Moose Calf Moose Calf	3.57	4.33	17.4	72.1
+Mechapup Mechapup	3.56	4.3	17.6	73.7
+Sakura Spirit Sakura Spirit	3.49	4.3	17.4	71.5
+Hyena Hyena	3.42	4.14	16.3	65.2
+Groundhog Groundhog	3.35	4.14	16.9	70.1
+Caelum Cervi Caelum Cervi	3.28	4.05	16.4	67.2
+Brown Bear Brown Bear	3.31	4.03	15.3	58
+Diamond Amazon Diamond Amazon	3.24	4.01	16.3	67.6
+Sugar Axolotl Sugar Axolotl	3.24	4.01	16.1	66.9
+Lava Dragon Lava Dragon	3.28	4	14.9	60.7
+Polar Bear Polar Bear	3.2	3.92	14.5	54.8
+Dragonfruit Fox Dragonfruit Fox	3.17	3.9	15.8	64.8
+Hare Hare	3.17	3.86	15.8	65.1
+Giant Anteater Giant Anteater	3.17	3.86	15.8	65.1
+Platypus Platypus	3.17	3.85	15	61.2
+Munchkin Cat Munchkin Cat	3.02	3.85	12.4	47.4
+Halloween White Ghost Dragon Halloween White Ghost Dragon	3.06	3.79	14.1	57.6
+Zombie Buffalo Zombie Buffalo	3.06	3.78	14.7	60.2
+Happy Clam Happy Clam	2.99	3.74	15	61.6
+Tri-horned Treehopper Tri-horned Treehopper	2.99	3.74	15	61.6
+Puffin Puffin	2.95	3.7	14.9	61.2
+Alley Cat Alley Cat	2.95	3.7	14.9	61.3
+Honey Badger Honey Badger	2.95	3.7	14.9	60.9
+Midnight Dragon Midnight Dragon	2.88	3.61	14.5	59.4
+Glacier Kitsune Glacier Kitsune	2.74	3.47	14	57.3
+Phantom Dragon Phantom Dragon	2.66	3.43	13.6	55.9
+Purple Butterfly Purple Butterfly	2.63	3.35	13.4	54.8
+Aurora Fox Aurora Fox	2.63	3.32	13.4	54.8
+Glacier Moth Glacier Moth	2.45	3.17	12.8	52.4
+Dango Penguins Dango Penguins	2.45	3.11	12.6	51.7
+Giant Gold Scarab Giant Gold Scarab	2.41	3.11	12.5	51.4
+Dancing Dragon Dancing Dragon	2.45	3.04	12.2	50.6
+Peahen Peahen	2.27	2.93	11.8	48.9
+Diamond Albatross Diamond Albatross	2.23	2.89	11.7	48.2
+Rose Dragon Rose Dragon	2.2	2.86	11.6	47.8
+Glormy Leo Glormy Leo	2.16	2.82	11.4	47.1
+Arctic Dusk Dragon Arctic Dusk Dragon	2.09	2.71	11	45.3
+Christmas Pudding Pup Christmas Pudding Pup	2.09	2.67	11	45.3
+Latte Kitsune Latte Kitsune	2.02	2.64	10.7	43.9
+Diamond Hamster Diamond Hamster	1.91	2.53	10.2	41.7
+Diamond Hummingbird Diamond Hummingbird	9.44	2.46	9.96	40.7
+Majestic Pony Majestic Pony	1.84	2.46	10	41
+Flaming Fox Flaming Fox	1.84	2.42	10	41
+Tree Kangaroo Tree Kangaroo	1.8	2.42	9.78	40
+Llama Llama	1.91	2.4	9.86	40.3
+Wood Pigeon Wood Pigeon	1.84	2.38	9.86	40.3
+Turkey Turkey	1.84	2.33	9.5	38.9
+Lavender Dragon Lavender Dragon	1.8	2.32	9.43	38.6
+Golden Chow-Chow Golden Chow-Chow	1.73	2.32	9.43	38.6
+Ice Cream Hermit Crab Ice Cream Hermit Crab	1.73	2.31	9.6	39.3
+Kookaburra Kookaburra	1.73	2.24	9.25	37.9
+Cheetah Cheetah	1.66	2.22	9.03	37
+Slime Slime	1.67	2.2	9.07	37.1
+Ice Golem Ice Golem	1.62	2.14	8.63	35.4
+Candy Hare Candy Hare	1.56	2.14	8.63	35.4
+Glormy Hound Glormy Hound	1.56	2.14	8.63	35.4
+Golden Penguin Golden Penguin	1.55	2.11	8.67	35.6
+Albino Gorilla Albino Gorilla	1.51	2.1	8.56	35.1
+Lamb Lamb	1.59	2.09	8.59	34.8
+Diamond Ladybug Diamond Ladybug	1.52	2.09	8.42	34.5
+Diamond King Penguin Diamond King Penguin	1.52	2.09	8.42	34.5
+Husky Husky	1.5	2.09	8.49	34.8
+2D Kitty 2D Kitty	1.47	2.02	8.24	33.8
+Swan Swan	1.55	1.99	7.88	32.4
+Mule Mule	1.49	1.98	8.17	33.1
+Silly Duck Silly Duck	1.36	1.95	7.45	30.2
+Corn Doggo Corn Doggo	1.32	1.95	7.88	32.4
+Queen Bee Queen Bee	1.28	1.92	7.84	32.2
+Leviathan Leviathan	1.25	1.84	7.52	31
+Ninja Monkey Ninja Monkey	1.33	1.82	7.45	30.7
+Ice Wolf Ice Wolf	1.27	1.8	7.48	30.4
+Hero Gibbon Hero Gibbon	1.15	1.78	7.23	29.8
+Jousting Horse Jousting Horse	1.13	1.77	7.19	29.6
+Ram Ram	1.19	1.74	7.01	28.5
+Leopard Shark Leopard Shark	1.19	1.74	6.98	28.4
+Vanilla Penguin Vanilla Penguin	1.12	1.71	7.09	29.2
+Frost Phoenix Frost Phoenix	1.12	1.71	7.09	29.2
+Rainbow Dragon Rainbow Dragon	1.08	1.7	6.83	28.2
+Scorching Kaijunior Scorching Kaijunior	1.08	1.7	6.83	28.2
+Yule Log Dog Yule Log Dog	1.1	1.68	6.91	28.5
+Skele-Rex Skele-Rex	1.08	1.67	6.69	27.6
+Peach Owl Peach Owl	1.08	1.67	6.87	28.4
+Apple Owl Apple Owl	1.08	1.67	6.87	28.4
+Chocolate Dutch Guinea Pig Chocolate Dutch Guinea Pig	1.1	1.65	6.57	26.7
+Naughty Mistletroll Naughty Mistletroll	1.03	1.63	6.65	27.5
+Wild Boar Wild Boar	1.2	1.59	5.94	24.2
+Royal Corgi Royal Corgi	1.06	1.58	6.39	26
+Capybara Capybara	1.05	1.56	5.9	24.5
+Chicken Chicken	1.03	1.55	6.08	25.2
+Green Butterfly Green Butterfly	0.99	1.55	6.3	26.1
+Golden Rat Golden Rat	0.95	1.52	6.08	25.2
+Dodo Dodo	0.95	1.52	6.08	25.2
+Shark Shark	0.95	1.52	6.08	25.2
+Phoenix Phoenix	0.95	1.52	5.9	24.5
+Unicorn Unicorn	0.83	1.52	4.75	14.7
+Harp Seal Harp Seal	0.99	1.5	5.42	22.1
+Prismatic Butterfly Prismatic Butterfly	0.94	1.5	6.01	24.9
+Astronaut Gorilla Astronaut Gorilla	0.92	1.5	6.11	25
+Rhino Rhino	1.1	1.49	5.54	23
+Capricorn Capricorn	0.94	1.48	5.94	24.6
+Black Panther Black Panther	0.96	1.45	5.15	21.5
+Snow Monkey Snow Monkey	0.96	1.45	5.75	23.4
+Violet Butterfly Violet Butterfly	0.9	1.45	5.9	24.5
+T-Rex T-Rex	0.88	1.43	5.57	22.5
+Goldhorn Goldhorn	0.88	1.43	5.75	23.6
+Pirate Hermit Crab Pirate Hermit Crab	0.88	1.43	5.75	23.6
+Octopus Octopus	0.86	1.41	5.24	21.3
+Spinosaurus Spinosaurus	0.86	1.41	5.6	23.2
+Drake Drake	0.92	1.4	4.71	19.7
+German Shepherd German Shepherd	0.92	1.4	5.46	22.3
+Lava Wolf Lava Wolf	0.83	1.39	5.44	22.3
+Moonbeam Butterfly Moonbeam Butterfly	0.83	1.39	5.44	22.3
+Kelp Captain Kelp Captain	0.83	1.39	5.44	22.3
+Firefly Firefly	0.85	1.38	5.54	23
+Cerberus Cerberus	0.83	1.37	5.42	22
+Chef Gorilla Chef Gorilla	0.88	1.36	5.34	21.8
+Peacock Peacock	0.81	1.34	5.24	21.3
+Axolotl Axolotl	0.81	1.34	5.24	21.3
+Toy Monkey Toy Monkey	0.86	1.32	5.16	21.1
+Naga Dragon Naga Dragon	0.79	1.32	4.91	20.2
+Cactus Friend Cactus Friend	0.79	1.32	4.91	20.2
+Golden Walrus Golden Walrus	0.77	1.3	4.76	19.7
+Winged Horse Winged Horse	0.77	1.3	4.76	19.7
+White Amazon White Amazon	0.77	1.3	4.58	19
+Gargoyle Gargoyle	0.77	1.3	4.93	20.4
+Volcanic Rhino Volcanic Rhino	0.77	1.3	4.93	20.4
+Gaelic Fae Gaelic Fae	0.83	1.29	4.98	20.4
+French Bulldog French Bulldog	0.83	1.29	4.6	18.9
+Puffer Fish Puffer Fish	0.82	1.27	4.92	20.1
+White Sand Dollar White Sand Dollar	0.81	1.27	4.87	19.9
+Mini Schnauzer Mini Schnauzer	0.81	1.27	4.52	18.5
+Shetland Pony Light Brown Shetland Pony Light Brown	0.74	1.27	4.6	18.9
+Cuddly Candle Cuddly Candle	0.74	1.27	4.43	18.1
+Influencer Gibbon Influencer Gibbon	0.68	1.27	4.43	18.1
+Squid Squid	0.66	1.25	4.27	17.7
+Golden Ladybug Golden Ladybug	0.66	1.24	4.25	17.4
+Red Sand Dollar Red Sand Dollar	0.79	1.23	4.7	19.2
+Brown Springer Spaniel Brown Springer Spaniel	0.72	1.23	4.34	17.8
+Black Springer Spaniel Black Springer Spaniel	0.72	1.23	4.34	17.8
+Hippogriff Hippogriff	0.7	1.23	4.3	17.5
+Golden King Penguin Golden King Penguin	0.64	1.23	4.12	16.8
+Ghost Bunny Ghost Bunny	0.73	1.22	4.27	17.5
+Royal Capuchin Monkey Royal Capuchin Monkey	0.66	1.22	4.22	17.6
+Guardian Lion Guardian Lion	0.64	1.22	4.09	17
+Chameleon Chameleon	0.64	1.22	4.09	17
+Green-Chested Pheasant Green-Chested Pheasant	0.64	1.22	4.09	17
+Golden Hamster Golden Hamster	0.64	1.22	4.09	17
+Mushroom Friend Mushroom Friend	0.64	1.22	4.09	17
+Panda Panda	0.7	1.21	4.41	18.1
+English Sheepdog English Sheepdog	0.7	1.21	4.21	17.3
+Snow Owl Snow Owl	0.7	1.2	4	16.4
+Chocolate Chow-Chow Chocolate Chow-Chow	0.64	1.2	4.07	16.7
+Black Chow-Chow Black Chow-Chow	0.64	1.2	4.07	16.7
+Orange Butterfly Orange Butterfly	0.68	1.19	4.12	16.9
+Princess Capuchin Monkey Princess Capuchin Monkey	0.62	1.19	3.94	16.1
+Gilded Snake Gilded Snake	0.62	1.19	3.94	16.1
+Golden Hummingbird Golden Hummingbird	0.59	1.19	4	15.5
+King Bee King Bee	0.62	1.18	3.92	16.3
+Sunrise Duckling Sunrise Duckling	0.62	1.18	3.92	16.3
+Black Widow Black Widow	0.62	1.18	3.92	16.3
+Reindeer Reindeer	0.74	1.17	3.92	15.7
+Binturong Binturong	0.67	1.17	4.06	16.7
+Hawk Hawk	0.6	1.16	3.76	15.4
+Billy Goat Billy Goat	0.6	1.16	3.76	15.4
+Scarebear Scarebear	0.6	1.16	3.76	15.4
+Business Monkey Business Monkey	0.71	1.15	4.13	16.9
+Kiwi Kiwi	0.64	1.15	3.93	16.1
+Robo Dog Robo Dog	0.57	1.15	3.64	14.8
+Maneki-Neko Maneki-Neko	0.58	1.14	3.61	15
+Dimorphodon Dimorphodon	0.58	1.14	3.61	15
+Lynx Lynx	0.64	1.13	3.81	15.7
+Wooly Rhino Wooly Rhino	0.62	1.11	3.73	15.3
+Water Rabbit Water Rabbit	0.62	1.11	3.73	15.3
+Evil Rock Evil Rock	0.62	1.11	3.73	15.3
+Yeti Yeti	0.61	1.1	3.68	15.2
+Pretty Pony Pretty Pony	0.61	1.1	3.7	15.2
+Golden Albatross Golden Albatross	0.56	1.1	3.43	14.3
+Baku Baku	0.56	1.1	3.43	14.3
+Snowball Pet Snowball Pet	0.62	1.09	3.66	15.1
+Zombie Wolf Zombie Wolf	0.6	1.09	3.66	15.1
+Emberlight Emberlight	0.43	1.09	3.41	14
+Kitsune Kitsune	0.53	1.08	3.28	13.4
+Ghost Dog Ghost Dog	0.6	1.07	3.52	14.5
+Criosphinx Criosphinx	0.49	1.07	3.33	13.9
+Winter Buck Winter Buck	0.49	1.07	3.25	13.5
+Great Pyrenees Great Pyrenees	0.58	1.06	3.46	14.3
+Cobra Cobra	0.51	1.06	3.13	13
+Blue Betta Fish Blue Betta Fish	0.51	1.06	3.13	13
+Mecha Meow Mecha Meow	0.46	1.06	3.13	13
+Dire Stag Dire Stag	0.48	1.05	2.97	12.5
+Fleur De Ice Fleur De Ice	0.48	1.05	3.08	12.8
+Chimera Chimera	0.46	1.04	3.1	12.7
+Griffin Griffin	0.44	1.04	3.02	11.8
+Moon Rabbit Moon Rabbit	0.55	1.03	3.31	13.7
+Ice Moth Dragon Ice Moth Dragon	0.46	1.03	2.82	11.6
+Karate Gorilla Karate Gorilla	0.55	1.02	3.31	13.7
+Super Saru Super Saru	0.44	1.02	2.95	12.2
+Priceless Shrimp Priceless Shrimp	0.45	1.01	2.75	11.2
+Halloween Golden Mummy Cat Halloween Golden Mummy Cat	0.43	1	2.77	11.5
+Kitty Bat Kitty Bat	0.43	0.99	2.59	10.8
+Evil Chick Evil Chick	0.41	0.98	2.66	11.1
+Sunglider Sunglider	0.41	0.98	2.56	10.7
+Lunar Moon Bear Lunar Moon Bear	0.4	0.98	2.73	11.4
+Berry Cool Cube Berry Cool Cube	0.4	0.98	2.73	11.4
+Coconut Friend Coconut Friend	0.7	0.96	2.48	10.4
+Frostclaw Frostclaw	0.4	0.96	2.48	10.4
+Scarecrow Crow Scarecrow Crow	0.39	0.96	2.55	10.7
+Frostbite Cub Frostbite Cub	0.45	0.94	3.03	12.8
+Diamond Unicorn Diamond Unicorn	0.38	0.94	2.23	9.58
+Kraken Kraken	0.38	0.94	2.38	9.94
+Dimension Drifter Dimension Drifter	0.38	0.94	2.38	9.94
+Villain Gibbon Villain Gibbon	0.38	0.94	2.38	9.94
+Striped Eggy Striped Eggy	0.37	0.94	2.45	10.1
+Rosy Maple Moth Rosy Maple Moth	0.37	0.94	2.34	9.75
+Glormy Dolphin Glormy Dolphin	0.3	0.94	2.45	10.1
+Royal Palace Spaniel Royal Palace Spaniel	0.44	0.93	2.86	11.9
+Blue Ringed Octopus Blue Ringed Octopus	0.44	0.93	2.95	12.3
+Primal Kaijunior Primal Kaijunior	0.36	0.92	2.27	9.39
+Bunny Swirl Bunny Swirl	0.36	0.92	2.68	11.2
+Fire Mare Fire Mare	0.29	0.92	2.27	9.39
+Red Squirrel Red Squirrel	0.41	0.91	2.82	11.7
+Diamond Dragon Diamond Dragon	0.29	0.9	2.09	8.68
+Irish Elk Irish Elk	0.35	0.89	2.51	10.6
+Lunar Gold Tiger Lunar Gold Tiger	0.26	0.89	1.97	8.28
+Golden Unicorn Golden Unicorn	0.24	0.89	2.05	8.32
+Angus Bull Angus Bull	0.24	0.89	2.05	8.32
+Seabed Creeper Seabed Creeper	0.41	0.88	2.69	11.2
+Metal Ox Metal Ox	0.25	0.88	2.05	8.31
+Slimingo Slimingo	0.22	0.88	1.98	8.14
+Horse Horse	0.41	0.87	2.58	10.7
+Amami Rabbit Amami Rabbit	0.4	0.87	2.6	10.8
+Quokka Quokka	0.4	0.86	2.47	10.3
+Happy Duckling Happy Duckling	0.39	0.86	2.58	10.8
+Pupcake Pupcake	0.33	0.86	2.4	10
+Dracula Parrot Dracula Parrot	0.3	0.86	1.8	7.41
+Diamond Griffin Diamond Griffin	0.26	0.86	1.94	7.78
+Zodiac Minion Chick Zodiac Minion Chick	0.23	0.86	1.84	7.62
+Alicorn Alicorn	0.2	0.86	1.89	7.7
+Flaming Zebra Flaming Zebra	0.39	0.85	2.45	10.2
+Ash Zebra Ash Zebra	0.39	0.85	2.3	9.69
+Musk Ox Musk Ox	0.38	0.85	2.52	10.5
+Golden Tortoise Beetle Golden Tortoise Beetle	0.29	0.85	1.9	7.55
+Black Macaque Black Macaque	0.38	0.84	2.44	10.4
+Nautilus Nautilus	0.38	0.84	2.46	10.5
+Space Whale Space Whale	0.37	0.83	2.42	10.3
+Highland Cow Highland Cow	0.37	0.83	2.25	9.51
+Shiver Wolf Shiver Wolf	0.37	0.83	2.37	10.1
+Giant Blue Scarab Giant Blue Scarab	0.36	0.83	2.37	10.1
+Hippo Hippo	0.36	0.83	2.21	9.32
+Chipmunk Chipmunk	0.36	0.83	2.32	9.67
+Gecko Gecko	0.36	0.82	2.33	9.92
+Tarsier Tarsier	0.36	0.82	2.33	9.92
+Flower Power Duckling Flower Power Duckling	0.36	0.82	2.29	9.57
+Tasmanian Devil Tasmanian Devil	0.36	0.82	2.31	9.81
+Peachick Peachick	0.3	0.82	2.22	9.33
+Golden Jaguar Golden Jaguar	0.28	0.82	2.29	9.57
+Castle Hermit Crab Castle Hermit Crab	0.35	0.81	2.25	9.35
+Cow Calf Cow Calf	0.35	0.81	2.12	8.88
+Mr Whiskerpips Mr Whiskerpips	0.35	0.81	2.25	9.35
+Chick Chick	0.29	0.81	1.95	8.39
+Toasty Red Panda Toasty Red Panda	0.34	0.8	2.12	8.88
+Merry Mistletroll Merry Mistletroll	0.34	0.8	2.1	8.77
+Golden Dragon Golden Dragon	0.18	0.8	1.72	6.66
+Glormy Crab Glormy Crab	0.17	0.8	1.74	6.77
+St Bernard St Bernard	0.27	0.79	2.07	8.63
+Leopard Cat Leopard Cat	0.27	0.79	2.03	8.42
+Diamond Mahi Mahi Diamond Mahi Mahi	0.18	0.79	1.8	7.07
+Christmas Spirit Christmas Spirit	0.18	0.79	1.68	6.44
+Frog Frog	0.26	0.78	1.89	8.06
+Koala Koala	0.26	0.78	2.03	8.42
+Koi Carp Koi Carp	0.26	0.78	1.86	7.95
+Eggnog Dog Eggnog Dog	0.26	0.78	1.98	8.2
+Candy Cane Snail Candy Cane Snail	0.26	0.78	1.86	7.95
+Moonlight Moth Moonlight Moth	0.26	0.78	1.98	8.2
+Headless Horse Headless Horse	0.26	0.78	1.86	7.95
+Purrowl Purrowl	0.15	0.78	1.66	6.34
+Wolf Wolf	0.26	0.77	1.85	7.7
+Rooster Rooster	0.26	0.77	1.89	7.92
+Albino Bat Albino Bat	0.25	0.77	1.96	8.09
+King Penguin King Penguin	0.25	0.77	1.82	7.73
+Longhorn Cow Longhorn Cow	0.25	0.77	1.94	7.98
+Partridge Partridge	0.25	0.77	1.96	8.09
+Burning Bunny Burning Bunny	0.22	0.77	1.89	7.92
+Dragon Dragon	0.16	0.77	1.69	6.52
+Pumpkin Friend Pumpkin Friend	0.31	0.76	1.94	7.98
+Vermilion Butterfly Vermilion Butterfly	0.31	0.76	1.94	7.98
+Glyptodon Glyptodon	0.24	0.76	1.73	7.3
+Clownfish Clownfish	0.24	0.76	1.92	7.87
+Evil Basilisk Evil Basilisk	0.24	0.76	1.94	7.98
+Evil Chickatrice Evil Chickatrice	0.24	0.76	1.94	7.98
+Pudding Cat Pudding Cat	0.23	0.76	1.73	7.3
+Indian Flying Fox Indian Flying Fox	0.23	0.76	1.75	7.41
+Therapy Dog Therapy Dog	0.21	0.76	1.78	7.38
+Penguin Penguin	0.2	0.76	1.81	7.48
+Golden Griffin Golden Griffin	0.15	0.76	1.63	6.2
+Kage Crow Kage Crow	0.25	0.75	1.81	7.34
+Halloween White Skeleton Dog Halloween White Skeleton Dog	0.24	0.75	1.78	7.38
+Scarecrow Cat Scarecrow Cat	0.24	0.75	1.78	7.38
+Halloween Evil Dachshund Halloween Evil Dachshund	0.23	0.75	1.85	7.55
+Mirai Moth Mirai Moth	0.2	0.75	1.78	7.38
+Summer Walrus Summer Walrus	0.19	0.75	1.74	7.16
+Nightmare Owl Nightmare Owl	0.19	0.75	1.76	7.27
+Sea Turtle Sea Turtle	0.14	0.75	1.58	5.98
+Peregrine Falcon Peregrine Falcon	0.25	0.74	1.79	7.24
+Hamster Hamster	0.24	0.74	1.77	7.13
+Momma Moose Momma Moose	0.24	0.74	1.77	7.13
+Giant Black Scarab Giant Black Scarab	0.23	0.74	1.74	7.16
+Brown-Chested Pheasant Brown-Chested Pheasant	0.23	0.74	1.72	7.05
+Green Amazon Green Amazon	0.23	0.74	1.72	7.05
+Inmate Capuchin Monkey Inmate Capuchin Monkey	0.23	0.74	1.74	7.16
+Preppy Capuchin Monkey Preppy Capuchin Monkey	0.23	0.74	1.74	7.16
+Sloth Sloth	0.22	0.74	1.69	7.08
+Pink Betta Fish Pink Betta Fish	0.22	0.74	1.81	7.33
+Bauble Buddies Bauble Buddies	0.22	0.74	1.69	7.08
+Cassowary Cassowary	0.19	0.74	1.72	7.05
+Water Moon Bear Water Moon Bear	0.18	0.74	1.72	7.05
+Seagull Seagull	0.18	0.74	1.72	7.05
+Elasmosaurus Elasmosaurus	0.18	0.74	1.69	7.08
+Temple Friend Temple Friend	0.14	0.74	1.56	5.87
+Quetzalcoatl Quetzalcoatl	0.14	0.74	1.56	5.87
+Albatross Albatross	0.23	0.73	1.7	6.94
+Tan Chow-Chow Tan Chow-Chow	0.23	0.73	1.7	6.94
+Goldfish Goldfish	0.23	0.73	1.7	6.8
+Hummingbird Hummingbird	0.23	0.73	1.7	6.94
+Sprout Snail Sprout Snail	0.18	0.73	1.68	6.83
+Canadian Goose Canadian Goose	0.18	0.73	1.65	6.72
+Gingerbread Reindeer Gingerbread Reindeer	0.23	0.72	1.7	6.8
+Choco Penguin Choco Penguin	0.22	0.72	1.66	6.58
+Toy Poodle Toy Poodle	0.21	0.72	1.61	6.51
+Seafoam Butterfly Seafoam Butterfly	0.21	0.72	1.61	6.51
+Ostrich Ostrich	0.17	0.72	1.61	6.51
+Wildfire Hawk Wildfire Hawk	0.17	0.72	1.65	6.72
+Subzero Scorpion Subzero Scorpion	0.17	0.72	1.61	6.51
+Sasquatch Sasquatch	0.16	0.72	1.59	6.4
+Dragonfly Dragonfly	0.11	0.72	1.45	5.33
+Clementine Owl Clementine Owl	0.22	0.71	1.64	6.48
+Fanghorn Tortoise Fanghorn Tortoise	0.21	0.71	1.62	6.37
+Rice Cake Rabbit Rice Cake Rabbit	0.21	0.71	1.62	6.37
+Tanuki Tanuki	0.17	0.71	1.6	6.26
+Love Bird Love Bird	0.17	0.71	1.62	6.37
+Snowball Pug Snowball Pug	0.17	0.71	1.64	6.48
+Feesh Feesh	0.16	0.71	1.57	6.29
+Scarlet Butterfly Scarlet Butterfly	0.15	0.71	1.57	6.29
+Punk Pony Punk Pony	0.15	0.71	1.55	6.18
+Puptune Puptune	0.14	0.71	1.59	6.4
+Ancient Dragon Ancient Dragon	0.11	0.71	1.41	5.11
+Fire Stallion Fire Stallion	0.11	0.71	1.41	5.11
+Gingerbread Hare Gingerbread Hare	0.19	0.7	1.68	6.66
+Magma Moose Magma Moose	0.16	0.7	1.6	6.26
+Praying Mantis Praying Mantis	0.16	0.7	1.57	6.15
+Sweetheart Rat Sweetheart Rat	0.16	0.7	1.57	6.15
+Blue Whale Blue Whale	0.13	0.7	1.47	5.4
+Sabertooth Sabertooth	0.16	0.69	1.55	6.04
+Komodo Dragon Komodo Dragon	0.16	0.69	1.55	6.04
+Skunk Skunk	0.16	0.69	1.55	6.04
+Hydra Hydra	0.15	0.69	1.53	5.93
+Clover Cow Clover Cow	0.15	0.69	1.51	5.82
+Shetland Pony White Shetland Pony White	0.17	0.68	1.57	6.12
+Raccoon Raccoon	0.17	0.68	1.52	5.9
+Easter Bunny Easter Bunny	0.1	0.68	1.34	4.75
+Lobster Lobster	0.16	0.67	1.48	5.68
+Magma Snail Magma Snail	0.16	0.67	1.52	5.9
+Deinonychus Deinonychus	0.15	0.66	1.48	5.68
+Wyvern Wyvern	0.15	0.66	1.5	5.79
+Starhopper Starhopper	0.15	0.66	1.46	5.57
+Singularity Pisces Singularity Pisces	0.15	0.66	1.46	5.57
+Bird of Paradise Bird of Paradise	0.14	0.66	1.48	5.68
+Coyote Coyote	0.14	0.66	1.44	5.47
+Kappakid Kappakid	0.14	0.66	1.48	5.68
+Malaysian Tapir Malaysian Tapir	0.13	0.66	1.42	5.36
+Manta Ray Manta Ray	0.16	0.65	1.59	6.23
+Ladybug Ladybug	0.14	0.65	1.46	5.57
+Narwhal Narwhal	0.14	0.65	1.39	5.25
+Pine Marten Pine Marten	0.14	0.65	1.42	5.36
+Salamander Salamander	0.14	0.65	1.42	5.36
+Spider Crab Spider Crab	0.14	0.65	1.44	5.47
+Gingerbread Mouse Gingerbread Mouse	0.14	0.65	1.46	5.57
+Vulture Vulture	0.14	0.65	1.46	5.57
+Roadrunner Roadrunner	0.14	0.65	1.46	5.57
+Deathstalker Scorpion Deathstalker Scorpion	0.14	0.65	1.46	5.57
+Ghost Chick Ghost Chick	0.14	0.65	1.46	5.57
+Grave Owl Grave Owl	0.14	0.65	1.44	5.47
+Blossom Snake Blossom Snake	0.14	0.65	1.42	5.36
+Prism Snake Prism Snake	0.14	0.65	1.42	5.36
+Nebula Snake Nebula Snake	0.14	0.65	1.42	5.36
+Kelp Hunter Kelp Hunter	0.14	0.65	1.42	5.36
+2021 Uplift Butterfly 2021 Uplift Butterfly	0.13	0.65	1.42	5.36
+Trapdoor Snail Trapdoor Snail	0.13	0.65	1.44	5.47
+Steppe Lion Steppe Lion	0.13	0.65	1.42	5.36
+Ornate Horned Frog Ornate Horned Frog	0.13	0.65	1.44	5.47
+Basilisk Basilisk	0.12	0.65	1.39	5.25
+Dark Choccybunny Dark Choccybunny	0.09	0.65	1.26	4.36
+Winter Doe Winter Doe	0.15	0.64	1.5	5.76
+Ringmaster Gibbon Ringmaster Gibbon	0.15	0.64	1.5	5.76
+Mecha R4BBIT Mecha R4BBIT	0.14	0.64	1.45	5.54
+Sea Angel Sea Angel	0.13	0.64	1.35	5.03
+Eggnog Hare Eggnog Hare	0.11	0.64	1.35	5.03
+Officer Gibbon Officer Gibbon	0.14	0.63	1.45	5.54
+Firefighter Gibbon Firefighter Gibbon	0.14	0.63	1.45	5.54
+Ghostly Cat Ghostly Cat	0.14	0.63	1.45	5.54
+Ibex Ibex	0.13	0.63	1.41	5.33
+Black Kite Black Kite	0.13	0.63	1.43	5.43
+Red Fox Red Fox	0.12	0.63	1.43	5.43
+Mongoose Mongoose	0.12	0.63	1.29	4.7
+Maine Coon Maine Coon	0.1	0.63	1.43	5.43
+Singularity Beetle Singularity Beetle	0.13	0.62	1.39	5.22
+Bloodhound Bloodhound	0.12	0.62	1.37	5.11
+Lammergeier Lammergeier	0.12	0.62	1.39	5.22
+Nutcracker Squirrel Nutcracker Squirrel	0.12	0.62	1.37	5.11
+Ermine Ermine	0.11	0.62	1.34	5
+The Black Dog The Black Dog	0.11	0.62	1.39	5.22
+Mochi Meow Mochi Meow	0.11	0.62	1.19	4
+Bee Bee	0.13	0.61	1.34	5
+Snowman Snowman	0.12	0.61	1.3	4.78
+Dolphin Dolphin	0.12	0.61	1.3	4.78
+Snow Leopard Snow Leopard	0.12	0.61	1.32	4.89
+2022 Uplift Butterfly 2022 Uplift Butterfly	0.12	0.61	1.32	4.89
+Red Crowned Crane Red Crowned Crane	0.12	0.61	1.37	5.11
+Undead Elk Undead Elk	0.12	0.61	1.34	5
+Chilling Spider Chilling Spider	0.12	0.61	1.37	5.11
+Cold Cube Cold Cube	0.11	0.61	1.37	5.11
+Robin Robin	0.1	0.61	1.28	4.67
+Dilophosaurus Dilophosaurus	0.1	0.61	1.32	4.89
+Pterodactyl Pterodactyl	0.1	0.61	1.32	4.89
+Eel Eel	0.1	0.61	1.3	4.78
+Cozy Mistletroll Cozy Mistletroll	0.09	0.61	1.34	5
+Icy Porcupine Icy Porcupine	0.12	0.6	1.43	5.4
+Dire Wolf Dire Wolf	0.12	0.6	1.38	5.19
+Australian Kelpie Australian Kelpie	0.11	0.6	1.3	4.78
+Emu Emu	0.11	0.6	1.3	4.78
+Woolly Mammoth Woolly Mammoth	0.11	0.6	1.3	4.78
+Seahorse Seahorse	0.11	0.6	1.28	4.67
+Lunar White Tiger Lunar White Tiger	0.11	0.6	1.3	4.78
+Orca Orca	0.11	0.6	1.38	5.19
+Cute-A-Cabra Cute-A-Cabra	0.11	0.6	1.28	4.67
+Ankylosaurus Ankylosaurus	0.11	0.6	1.3	4.78
+Yellow Butterfly Yellow Butterfly	0.1	0.6	1.26	4.57
+Warthog Warthog	0.1	0.6	1.28	4.67
+Starmite Starmite	0.1	0.6	1.28	4.67
+Merhorse Merhorse	0.09	0.6	1.26	4.57
+Rock Rock	0.09	0.6	1.24	4.46
+Snowy Mammoth Snowy Mammoth	0.12	0.59	1.39	5.23
+Frozen Penguin Frozen Penguin	0.12	0.59	1.39	5.23
+Halloween White Mummy Cat Halloween White Mummy Cat	0.1	0.59	1.29	4.71
+Pomeranian Pomeranian	0.1	0.59	1.34	4.97
+Possum Possum	0.08	0.59	1.19	4.24
+Indian Leopard Indian Leopard	0.08	0.59	1.24	4.46
+Black Marlin Black Marlin	0.08	0.59	1.19	4.24
+Zombie Chick Zombie Chick	0.08	0.59	1.21	4.35
+Classic Teapot Classic Teapot	0.1	0.58	1.23	4.43
+Starfish Starfish	0.09	0.58	1.3	4.75
+Rock Pigeon Rock Pigeon	0.09	0.58	1.17	4.13
+Orange Betta Fish Orange Betta Fish	0.07	0.58	1.17	4.13
+Floral Eggy Floral Eggy	0.1	0.57	1.27	4.64
+Lionfish Lionfish	0.1	0.57	1.27	4.64
+Toxic Kaijunior Toxic Kaijunior	0.1	0.57	1.27	4.64
+Skelebat Skelebat	0.1	0.57	1.27	4.64
+Monkey Monkey	0.09	0.57	1.23	4.43
+Stegosaurus Stegosaurus	0.09	0.57	1.21	4.32
+Triceratops Triceratops	0.09	0.57	1.21	4.32
+Chickatrice Chickatrice	0.09	0.57	1.21	4.32
+Marabou Stork Marabou Stork	0.09	0.57	1.23	4.43
+Toucan Toucan	0.08	0.57	1.25	4.53
+Ginger Cat Ginger Cat	0.08	0.57	1.25	4.53
+Kirin Kirin	0.08	0.57	1.18	4.17
+Arctic Hare Arctic Hare	0.08	0.57	1.18	4.17
+Ice Cube Ice Cube	0.08	0.57	1.2	4.28
+Old King Coal Old King Coal	0.08	0.57	1.21	4.32
+Rat Rat	0.1	0.56	1.27	4.61
+Birthday Butterfly 2023 Birthday Butterfly 2023	0.09	0.56	1.19	4.21
+DJ Snooze DJ Snooze	0.09	0.56	1.21	4.32
+Lunar Ox Lunar Ox	0.08	0.56	1.21	4.32
+Woodpecker Woodpecker	0.08	0.56	1.16	4.1
+Dugong Dugong	0.08	0.56	1.16	4.1
+Ibis Ibis	0.08	0.56	1.16	4.1
+Slug Slug	0.08	0.56	1.14	3.99
+Frogspawn Frogspawn	0.08	0.56	1.14	3.99
+Liger Liger	0.08	0.56	1.14	3.99
+Poison Dart Frog Poison Dart Frog	0.08	0.56	1.16	4.1
+Scarecrow Horse Scarecrow Horse	0.08	0.56	1.19	4.21
+Mistletroll Mistletroll	0.08	0.56	1.14	3.99
+Cockroach Cockroach	0.09	0.55	1.13	3.92
+Mrs Whiskerpips Mrs Whiskerpips	0.09	0.55	1.27	4.61
+Persian Cat Persian Cat	0.07	0.55	1.16	4.1
+Arctic Tern Arctic Tern	0.07	0.55	1.12	3.88
+Ghost Ghost	0.07	0.55	1.1	3.77
+Thorny Devil Thorny Devil	0.07	0.55	1.14	3.99
+Urchin Urchin	0.07	0.55	1.1	3.77
+Moonpine Moonpine	0.07	0.55	1.12	3.88
+Zeopod Zeopod	0.07	0.55	1.12	3.88
+Kelp Raider Kelp Raider	0.07	0.55	1.14	3.99
+Tarantula Tarantula	0.07	0.55	1.14	3.99
+Winter Fawn Winter Fawn	0.08	0.54	1.13	3.92
+Blue Jay Blue Jay	0.07	0.54	1.1	3.77
+Dracula Fish Dracula Fish	0.07	0.54	1.08	3.66
+Gorilla Gorilla	0.06	0.54	1.08	3.66
+Bat Bat	0.09	0.53	1.14	3.96
+Birthday Butterfly 2024 Birthday Butterfly 2024	0.08	0.53	1.11	3.85
+Hammerhead Shark Hammerhead Shark	0.08	0.53	1.14	3.96
+Emperor Shrimp Emperor Shrimp	0.08	0.53	1.14	3.96
+Walrus Walrus	0.07	0.53	1.06	3.59
+Oryx Oryx	0.07	0.53	1.11	3.81
+Dingo Dingo	0.08	0.52	1.09	3.74
+Crab Crab	0.08	0.52	1.09	3.74
+Halloween Blue Scorpion Halloween Blue Scorpion	0.08	0.52	1.09	3.74
+Black Moon Bear Black Moon Bear	0.08	0.52	1.11	3.85
+Fossa Fossa	0.08	0.52	1.09	3.74
+Brachiosaurus Brachiosaurus	0.08	0.52	1.08	3.67
+Gumball Caterpillar Gumball Caterpillar	0.08	0.52	1.19	4.22
+Halloween Black Mummy Cat Halloween Black Mummy Cat	0.07	0.52	1.09	3.74
+Hermit Crab Hermit Crab	0.07	0.52	1.07	3.63
+Scarecrow Scarecrow	0.07	0.52	1.07	3.63
+Rodeo Bull Rodeo Bull	0.07	0.52	1.05	3.52
+Sea Skeleton Panda Sea Skeleton Panda	0.07	0.52	1.05	3.52
+Kaijunior Kaijunior	0.07	0.52	1.05	3.52
+Kelp Crewmate Kelp Crewmate	0.07	0.52	1.05	3.52
+Weevil Weevil	0.06	0.52	1.04	3.49
+Show Pony Show Pony	0.06	0.52	1.03	3.42
+Ghost Wolf Ghost Wolf	0.07	0.51	1.08	3.67
+Shetland Pony Dark Brown Shetland Pony Dark Brown	0.07	0.51	1.05	3.52
+Dotted Eggy Dotted Eggy	0.07	0.51	1.05	3.52
+Banded Palm Civet Banded Palm Civet	0.06	0.51	1.03	3.42
+Yellow-lipped Sea Krait Yellow-lipped Sea Krait	0.06	0.51	1.03	3.42
+Gila Monster Gila Monster	0.06	0.51	1.03	3.42
+Kid Goat Kid Goat	0.06	0.51	1.01	3.31
+Red Cardinal Red Cardinal	0.05	0.51	1.01	3.31
+Rhino Beetle Rhino Beetle	0.05	0.51	1.01	3.31
+Ground Sloth Ground Sloth	0.07	0.5	1.01	3.35
+Tasmanian Tiger Tasmanian Tiger	0.07	0.5	1.01	3.35
+Velociraptor Velociraptor	0.06	0.5	1.01	3.35
+Ehecatl Ehecatl	0.06	0.5	1.06	3.56
+Turtle Doves Turtle Doves	0.06	0.5	1.06	3.56
+Angus Calf Angus Calf	0.06	0.5	1.08	3.67
+Red Panda Red Panda	0.05	0.5	1.01	3.31
+Shiba Inu Shiba Inu	0.05	0.5	1.01	3.31
+Gold Mahi Mahi Gold Mahi Mahi	0.07	0.49	1.09	3.71
+2025 Birthday Butterfly 2025 Birthday Butterfly	0.07	0.49	1.04	3.49
+Tawny Frogmouth Tawny Frogmouth	0.06	0.49	0.99	3.24
+Beluga Whale Beluga Whale	0.06	0.49	0.97	3.13
+Rattlesnake Rattlesnake	0.06	0.49	0.99	3.24
+Onza Onza	0.06	0.49	1.07	3.6
+Samoyed Samoyed	0.06	0.49	1.03	3.32
+Waffle Wyrm Waffle Wyrm	0.06	0.49	1.07	3.6
+Wolpertinger Wolpertinger	0.05	0.49	0.95	3.02
+Swordfish Swordfish	0.05	0.49	1.04	3.45
+Corgi Corgi	0.05	0.49	1.01	3.35
+Robot Robot	0.05	0.49	1.01	3.35
+Sado Mole Sado Mole	0.05	0.49	0.95	3.02
+Ocelot Ocelot	0.05	0.49	1.01	3.35
+Grinmoire Grinmoire	0.05	0.49	1.04	3.45
+Mole Mole	0.05	0.49	0.95	3.02
+Bandicoot Bandicoot	0.06	0.48	0.93	2.95
+Stingray Stingray	0.06	0.48	0.98	3.17
+Ribbon Seal Ribbon Seal	0.06	0.48	1.04	3.49
+Badger Badger	0.05	0.48	1.02	3.39
+Angler Fish Angler Fish	0.05	0.48	0.96	3.06
+Borhyaena Gigantica Borhyaena Gigantica	0.05	0.48	0.96	3.06
+Capuchin Monkey Capuchin Monkey	0.05	0.48	1	3.28
+Hopbop Hopbop	0.05	0.48	0.92	2.77
+Wren Wren	0.05	0.48	0.98	3.17
+Angelfish Angelfish	0.04	0.48	0.91	2.82
+Ox Ox	0.05	0.47	0.96	3.06
+Lunar Tiger Lunar Tiger	0.05	0.47	0.96	3.06
+Abyssinian Cat Abyssinian Cat	0.05	0.47	0.96	3.06
+Bullfrog Bullfrog	0.05	0.47	0.91	2.84
+Bali Starling Bali Starling	0.05	0.47	0.91	2.84
+Maleo Bird Maleo Bird	0.05	0.47	0.91	2.84
+Sandfish Sandfish	0.05	0.47	0.91	2.84
+Armadillo Armadillo	0.05	0.47	0.91	2.84
+Amber Butterfly Amber Butterfly	0.05	0.47	0.93	2.95
+Jumping Spider Jumping Spider	0.05	0.47	0.93	2.95
+Mosquito Mosquito	0.04	0.47	0.87	2.55
+Piranha Piranha	0.04	0.47	0.87	2.55
+Bluebottle Fly Bluebottle Fly	0.04	0.47	0.89	2.73
+Frankenfeline Frankenfeline	0.04	0.47	0.89	2.73
+Snorgle Snorgle	0.04	0.47	0.91	2.84
+Tree Sasquatch Tree Sasquatch	0.05	0.46	0.94	2.81
+Flying Fish Flying Fish	0.04	0.46	0.85	2.47
+Ratatoskr Ratatoskr	0.04	0.46	0.87	2.65
+Gibbon Gibbon	0.04	0.46	0.91	2.84
+Water Opossum Water Opossum	0.04	0.46	0.9	2.7
+Chanekeh Chanekeh	0.04	0.46	0.9	2.7
+Garden Snake Garden Snake	0.03	0.46	0.83	2.38
+Bakeneko Bakeneko	0.03	0.46	0.85	2.56
+Island Tarsier Island Tarsier	0.03	0.46	0.85	2.56
+Patchy Bear Patchy Bear	0.04	0.45	0.86	2.38
+Humbug Humbug	0.04	0.45	0.86	2.3
+Black-Footed Ferret Black-Footed Ferret	0.04	0.45	0.94	2.81
+Pangolin Pangolin	0.04	0.45	0.94	2.74
+White Choccybunny White Choccybunny	0.04	0.45	0.92	2.63
+Fire Foal Fire Foal	0.05	0.44	0.95	2.74
+Rabbit Rabbit	0.03	0.44	0.79	2.11
+Orangutan Orangutan	0.03	0.44	0.78	2.07
+Zebra Zebra	0.03	0.44	0.78	2.07
+Parakeet Parakeet	0.03	0.44	0.78	2.07
+Blue Butterfly Blue Butterfly	0.03	0.44	0.81	2.2
+Tree Frog Tree Frog	0.03	0.44	0.8	2.16
+Magpie Magpie	0.04	0.43	0.84	2.27
+Sneak Weasel Sneak Weasel	0.03	0.43	0.81	2.2
+Cherub Chipmunk Cherub Chipmunk	0.03	0.43	0.84	2.27
+Beaver Beaver	0.03	0.42	0.7	1.74
+Bunny Bunny	0.03	0.42	0.72	1.83
+Snow Puma Snow Puma	0.03	0.42	0.7	1.74
+Poodle Poodle	0.03	0.42	0.71	1.79
+Mahi Mahi Mahi Mahi	0.03	0.42	0.76	1.89
+Muskrat Muskrat	0.03	0.42	0.82	2.11
+Aye Aye Aye Aye	0.03	0.42	0.79	2.02
+Angus Cow Angus Cow	0.03	0.42	0.79	2.02
+Japanese Snow Fairy Japanese Snow Fairy	0.03	0.42	0.77	1.94
+Black Tiger Black Tiger	0.03	0.42	0.71	1.79
+Kakapo Kakapo	0.03	0.42	0.71	1.79
+Black Rhino Black Rhino	0.03	0.42	0.75	1.9
+Mexican Wolf Mexican Wolf	0.03	0.42	0.77	1.94
+Cocoadile Cocoadile	0.03	0.42	0.71	1.79
+Gummy Guana Gummy Guana	0.03	0.42	0.72	1.83
+Milk Choccybunny Milk Choccybunny	0.03	0.42	0.71	1.79
+Chocolate Labrador Chocolate Labrador	0.02	0.42	0.65	1.56
+Fennec Fox Fennec Fox	0.02	0.42	0.65	1.56
+Puma Puma	0.02	0.42	0.65	1.56
+Snow Cat Snow Cat	0.02	0.42	0.65	1.56
+Donkey Donkey	0.02	0.42	0.69	1.7
+Camel Camel	0.02	0.42	0.69	1.7
+Tegu Tegu	0.02	0.42	0.73	1.72
+Shih Tzu Shih Tzu	0.02	0.42	0.78	1.98
+California Condor California Condor	0.02	0.42	0.64	1.54
+Galapagos Sea Lion Galapagos Sea Lion	0.02	0.42	0.64	1.54
+Jiggly Jerboa Jiggly Jerboa	0.02	0.42	0.64	1.54
+Buffalo Buffalo	0.01	0.42	0.62	1.29
+Otter Otter	0.01	0.42	0.62	1.31
+Ant Ant	0.01	0.42	0.62	1.36
+Mouse Mouse	0.01	0.42	0.62	1.38
+Cat Cat	0.01	0.41	0.6	1.22
+Dog Dog	0.01	0.41	0.6	1.22
